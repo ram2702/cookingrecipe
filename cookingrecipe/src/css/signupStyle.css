@@ -1,0 +1,224 @@
+* {
+    font-family: 'Inter';
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+    font-family: unset;
+    font-size: unset;
+    font-weight: unset;
+}
+
+a:hover {
+    color: unset;
+}
+
+.signpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    height: fit-content;
+    width: 100%;
+    padding-bottom: 10vh;
+    background: url(../Images/signupbg.jpg);
+    background-size: cover;
+}
+
+.signupbg {
+    display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: fit-content;
+    width: 70%;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.capsec {
+    margin-top: auto;
+    background: none;
+    background-size: cover;
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f8d734;
+    text-shadow: 3px 3px #0b832d;
+    transition: all 0.5s ease;
+}
+
+.capsec h2 {
+    font-size: 39px;
+}
+
+.icons {
+    /* background-color: rgba(10,186,181,0.4); */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.signTitle {
+    align-self: center;
+    font-family: Poppins;
+}
+
+
+.signform {
+    align-self: center;
+    margin-top: 30px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.signform form {
+    justify-self: center;
+}
+
+.signform input {
+    align-self: center;
+    width: 80%;
+    font-size: 30px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    outline: none;
+    color: black;
+
+}
+
+.signform input::placeholder {
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+
+.buttonsignup {
+    padding-left: 5px;
+    padding-right: 5px;
+    align-self: flex-end;
+    margin-top: 5%;
+    margin-right: 10%;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+}
+
+.buttonsignup:hover {
+    color: #85dcb0;
+    border-color: #85dcb0;
+}
+
+.dp {
+    display: none;
+}
+
+.aluser {
+    background: url("../Images/cyan.jpg");
+    background-size: cover;
+    width: 50%;
+    border-radius: 0px 15px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.aluser h2 {
+    width: 90%;
+    text-align: end;
+    font-size: 50px;
+    color: #f8d734;
+    text-shadow: 3px 3px #0b832d;
+    font-family: Poppins;
+}
+
+.pee {
+    width: 90%;
+    text-decoration: none;
+    text-align: end;
+    cursor: pointer;
+}
+
+.aluser p {
+    font-family: Poppins;
+    font-size: 40px;
+    color: #f8d734;
+    text-shadow: 3px 3px #0b832d;
+    transition: all 1s ease;
+}
+
+.aluser p:hover {
+    letter-spacing: 1.3px;
+}
+
+.capsign {
+    margin-top: 12vh;
+    transform: translate(100%, 0);
+    transition: all 0.5s ease;
+}
+
+.signinpg {
+    height: 450px;
+
+    transform: translate(-100%, 0px);
+    border-radius: 15px 0px 0px 15px;
+    transition: all 0.5s ease;
+}
+
+
+
+@media screen and (max-width: 1250px) {
+    .signupbg {
+        width: 90%;
+    }
+
+    .capsec h2 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width:789px) {
+    .capsec {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .aluser {
+        display: none;
+    }
+
+    .capsec {
+        background: none;
+    }
+
+    .capsec h2 {
+        padding: 0px;
+        font-size: 40px;
+        text-align: center;
+    }
+}

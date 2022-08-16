@@ -1,0 +1,116 @@
+.searchCont {
+    margin-top: 6vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.searchBarCont {
+    align-self: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.searchBar {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.908);
+    height: 12vh;
+    border-style: solid;
+    border-radius: 10px;
+    color: black;
+    font-size: 35px;
+    padding-left: 20px;
+    padding-right: 90px;
+}
+
+.searchBar::placeholder {
+    color: rgba(0, 0, 0, 0.578);
+}
+
+.search {
+
+    color: black;
+
+}
+
+.searchbg {
+    background-color: rgba(255, 255, 255, 0.908);
+    margin-left: 1vw;
+    border-style: solid;
+    border-radius: 10px;
+    padding-left: 3px;
+    padding-top: 2px;
+    color: black;
+    font-size: 40px;
+    border-color: black;
+    margin-top: 2vh;
+    height: 8vh;
+    width: 10vh;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.searchbg:hover {
+    transform: scale(1.09);
+    color: green;
+}
+
+.searchFilter {
+    color: white;
+    text-shadow: 2px 2px black;
+    align-self: center;
+    font-size: 25px;
+    width: 85%;
+    display: flex;
+}
+
+.searchFilter input {
+    margin-left: 2vw;
+}
+
+.searchResult {
+    color: white;
+    border-style: solid;
+    border-color: black;
+    margin-top: 2vh;
+    padding-top: 2vh;
+    padding-left: 1vh;
+    align-self: center;
+    font-size: 25px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchViewCont {
+
+    width: 100%;
+}
+
+.searchResultHead {
+    text-shadow: 4px 4px black;
+    float: left;
+    margin-bottom: 2vh;
+}
+
+.recipeLink {
+    float: right;
+    margin-right: 4vh;
+    margin-top: 1%;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.recipeLink:hover {
+    transform: scale(1.05);
+    color: green;
+}
+
+.searchResultdesc {
+    text-shadow: 2px 2px black;
+}

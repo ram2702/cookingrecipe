@@ -1,0 +1,260 @@
+.big--container {
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 5vh;
+}
+
+.big--sub-container {
+    width: 90%;
+    height: 140vh;
+    background-color: rgba(23, 27, 28, 0.442);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.big--heading {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.big--elements {
+    margin-left: 10%;
+    margin-bottom: 3%;
+    font-size: 30px;
+    text-shadow: 3px 3px black;
+}
+
+.big--first {
+    margin-top: 5%;
+
+}
+
+.big--fal {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 10%;
+
+    margin-left: 10%;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+}
+
+.big--fal:hover {
+    color: #85dcb0;
+    border-color: #85dcb0;
+}
+
+.big--food {
+    display: inline-block;
+    width: 80%;
+}
+
+.big--food h2 {
+    float: left;
+    width: 20%;
+}
+
+.big--select {
+    margin-left: 5%;
+    width: 60%;
+    font-size: 30px;
+    background-color: transparent;
+    border-width: 0ch 0 2px 0;
+}
+
+
+
+.big--select option {
+    background-color: transparent;
+    color: black;
+}
+
+.positioned {
+    margin-top: -25%;
+    float: left;
+    margin-bottom: 1%;
+    background-color: rgba(38, 47, 47, 0.623);
+    width: 30%;
+    padding: 2px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+.big--list {
+
+    margin-bottom: 1%;
+    background-color: rgba(38, 47, 47, 0.623);
+    width: 30%;
+    padding: 2px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.big--close {
+    margin-right: 10%;
+    margin-top: 1%;
+}
+
+
+.big--button-one {
+    background-color: transparent;
+    border: none;
+}
+
+.big--cal {
+    margin-top: 2%;
+}
+
+.big--minus {
+    float: left;
+    margin-left: 3%;
+    cursor: pointer;
+}
+
+.tikc-close {
+    float: right;
+    display: flex;
+    margin-right: 14%;
+}
+
+.tikc-close img {
+    cursor: pointer;
+}
+
+.big--plus {
+    float: right;
+    margin-right: 3%;
+    cursor: pointer;
+}
+
+.big--submit {
+    margin-top: 0%;
+
+    align-self: flex-start;
+}
+
+.displayChart {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin-left: 0%;
+}
+
+.displayChart span {
+    width: 60%;
+    float: left;
+    margin-left: 0%;
+}
+
+.barchart {
+    height: 250px;
+    width: 500px;
+    margin-top: 5vh;
+    align-self: center;
+    color: black;
+}
+
+.piechart {
+    height: 150px;
+    width: 1200px;
+    margin-top: 10vh;
+    align-self: center;
+    margin-left: -2%;
+    color: black;
+}
+
+.trackoption {
+    width: 30%;
+    align-self: center;
+    margin-top: 1%;
+    font-size: 30px;
+    background-color: transparent;
+    border-width: 0ch 0 2px 0;
+}
+
+.workoutmode {
+    width: 30%;
+    align-self: center;
+    margin-top: 1%;
+    font-size: 30px;
+    background-color: transparent;
+    border-width: 0ch 0 2px 0;
+}
+
+.trackoption option,
+.workoutmode option {
+    background-color: transparent;
+    color: black;
+}
+
+.purple {
+    animation-name: rainbow;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: all ease;
+}
+
+@keyframes rainbow {
+    0% {
+        color: indigo;
+
+    }
+
+    50% {
+        color: #8A2BE2;
+    }
+
+    100% {
+        color: purple;
+    }
+}
+
+.weather {
+    width: 80%;
+    align-self: center;
+    margin-top: 2%;
+}
+
+.weather--elements {
+
+    margin-bottom: 3%;
+    font-size: 30px;
+    text-shadow: 3px 3px black;
+}
+
+.workoutItems {
+    margin-top: 5%;
+}
+
+.weather--input {
+    align-self: center;
+    width: 40%;
+    font-size: 30px;
+    margin-top: 5%;
+    background-color: transparent;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    outline: none;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: default;
+}

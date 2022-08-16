@@ -1,0 +1,63 @@
+.navCont {
+    margin-bottom: 5%;
+    align-self: flex-start;
+    width: 100%;
+    height: 10vh;
+}
+
+.navCont nav {
+    margin-top: 1vh;
+
+}
+
+.heading {
+    font-size: 40px;
+    color: white;
+    text-shadow: 4px 4px black;
+    margin-left: 1vh;
+    transition: all 0.3s ease;
+}
+
+.heading:hover {
+    letter-spacing: 1.1px;
+}
+
+.gold {
+    color: black;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+.black {
+    color: black;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+.left {
+    float: left;
+    display: flex;
+    color: black;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-size: 40px;
+}
+
+.right {
+    display: flex;
+    float: right;
+    margin-right: 3vh;
+    margin-top: 1vh;
+}
+
+.navelements {
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px black;
+    margin-left: 1vh;
+    margin-left: 2vw;
+}
+
+.navCont ul:hover {
+    cursor: pointer;
+}

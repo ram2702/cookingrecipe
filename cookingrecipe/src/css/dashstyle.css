@@ -1,0 +1,372 @@
+* {
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    transition: all 0.1s ease;
+}
+
+.dashHome {
+
+    background-size: cover;
+}
+
+body {
+    background-color: #1F2024;
+}
+
+.catalog {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.catalog:hover {
+    color: lightgreen;
+}
+
+.container {
+    margin-top: 2vh;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #2e2e2e73;
+
+}
+
+.dash {
+
+    width: 80vw;
+    height: 100vh;
+    box-shadow: 1px 1px 16px -7px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.saveregion {
+    align-self: center;
+    margin-left: 10vh;
+    margin-top: 7vh;
+    font-size: 40px;
+}
+
+
+.container--menu {
+    width: 20vw;
+}
+
+.container--menu h2 {
+    font-size: 1.8em;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.heading {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+}
+
+.main--sec {
+    align-self: center;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    border-radius: 10px;
+}
+
+.green {
+    color: lightgreen;
+    animation-name: rainbows;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: all ease;
+}
+
+.end {
+
+    margin-left: 97vh;
+}
+
+@keyframes rainbows {
+    0% {
+        color: #76B947;
+
+    }
+
+    50% {
+        color: #81B622;
+    }
+
+    90% {
+        color: #00A300;
+
+    }
+
+    100% {
+        color: #00A300;
+
+    }
+}
+
+.nodisp {
+    display: none;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+
+.warning {
+    margin-top: 5%;
+    max-width: 65%;
+    margin-left: 18%;
+    font-size: 30px;
+    line-height: 50px;
+    text-shadow: 3px 3px black;
+
+}
+
+.red {
+    color: red;
+
+}
+
+.progress-title {
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+.progress-area {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 25px;
+    align-self: start;
+    display: flex;
+    justify-content: space-around;
+}
+
+.progress-stats {
+    width: 60%;
+    text-align: start;
+}
+
+.menuselect {
+    animation-name: rainbow;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: all ease;
+}
+
+@keyframes rainbow {
+    0% {
+        color: indigo;
+
+    }
+
+    50% {
+        color: #8A2BE2;
+    }
+
+    100% {
+        color: purple;
+    }
+}
+
+.progress-stats-num {
+    width: 20%;
+    text-align: end;
+    justify-self: flex-end;
+}
+
+.progressbar {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 50%;
+    color: green;
+}
+
+.solobg {
+    background: #341948;
+    background-repeat: no-repeat;
+
+
+
+}
+
+
+
+.sec--one {
+    border-radius: 10px 0 0 10px;
+    width: 60%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sec--one h3 {
+    margin: 10%;
+}
+
+.sec--one div {
+    box-shadow: 1px 1px 16px -7px black;
+    height: 80%;
+    width: 45%;
+    border-radius: 10px;
+    background-color: #2a282d52;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sub--sec {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.sub--sec div {
+    width: 90%;
+    height: 150px;
+    box-shadow: 1px 1px 16px -7px black;
+    background-color: #2a282d52;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: center;
+    transition: all 0.4s ease;
+}
+
+.sub--sec div:hover,
+.progresstext:hover {
+    transform: scale(1.01);
+    transition: all 0.4s ease;
+    color: #8A2BE2;
+}
+
+.progresstext {
+    text-align: center;
+    text-shadow: 6px 6px #090809;
+    font-size: 55px;
+}
+
+.pre {
+    margin-bottom: 10vh;
+}
+
+.dietitem {
+    cursor: pointer;
+    background-color: #2E2E2E;
+    width: 80%;
+    height: 200px;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 5vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 50px;
+    text-shadow: 6px 6px black;
+
+}
+
+.dietlist {
+    display: grid;
+    align-self: center;
+    width: 80%;
+    margin-left: 5%;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 10px 10px;
+}
+
+.south {
+    background-image: url(../Images/southie.jpeg);
+
+}
+
+.north {
+    background-image: url(../Images/north.jpg);
+
+}
+
+.generic {
+    background-image: url(../Images/generic.jpg);
+
+}
+
+.selectGoal {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.selectGoal h2 {
+    font-size: 2em;
+    transition: all 0.5s ease;
+}
+
+.selectGoal h2:hover {
+    cursor: pointer;
+    color: #341948;
+}
+
+.goalinput {
+    width: 80%;
+    align-self: center;
+    margin-top: 0vh;
+    margin-left: 0%;
+}
+
+
+.goalinput input,
+.goalinput select {
+    padding: 20px;
+    padding-left: 0;
+    color: white;
+    font-family: 'Poppins';
+}
+
+form {
+    color: white;
+}
+
+.pcolor {
+    color: #341948;
+}
+
+.goalinput input:focus,
+.goalinput input:focus::placeholder {
+    color: white;
+}
+
+.heavyt {
+    width: 40%;
+}
+
+.heavy {
+    width: 40%;
+    float: left;
+}

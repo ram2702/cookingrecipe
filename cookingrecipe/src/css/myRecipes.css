@@ -1,0 +1,174 @@
+.yourRecipes {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.yourAddButton {
+    width: 20%;
+    height: 5vh;
+    font-size: 15px;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: rgba(255, 255, 255, 0.452);
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.yoursubheading {
+    font-size: 35px;
+    text-shadow: 3px 3px black;
+    text-align: center;
+
+}
+
+.yourrecipesHead {
+    font-size: 40px;
+    color: yellow;
+    text-shadow: 3px 3px black;
+    align-self: flex-start;
+}
+
+.middle {
+    align-self: center;
+    margin-bottom: 2vh;
+}
+
+.authRecipes {
+    width: 100%;
+    height: 9vh;
+    background-color: rgba(255, 255, 255, 0.889);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 1.5%;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.authRecipesspan {
+    color: black;
+    font-size: 30px;
+    float: left;
+}
+
+.authRecipes span {
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.yourform {
+    width: 100%;
+}
+
+.yourformInput {
+    width: 100%;
+    height: 8vh;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 1.5%;
+    color: black;
+    margin-bottom: 3vh;
+}
+
+.textarsea {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px 10px 0px 10px;
+    min-height: fit-content;
+
+}
+
+.yourformInput::placeholder {
+    color: black;
+}
+
+.addIngredients {
+    display: flex;
+}
+
+.youringredient {
+    width: 80%;
+}
+
+.youringbutton {
+    background-color: white;
+    border-radius: 10px;
+
+    height: 8vh;
+    width: 30%;
+}
+
+.newbutton {
+    float: right;
+    margin-top: 2vh;
+    margin-right: 5vh;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 1%;
+    height: 5vh;
+    width: 5vw;
+}
+
+.ingList {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ingListItems {
+    margin-top: 2vh;
+    margin-right: 2vw;
+    margin-left: 5vw;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    row-gap: 2vh;
+    justify-content: space-evenly;
+    max-width: 100%;
+}
+
+.stepListItems {
+    margin-top: 2vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+
+}
+
+.stepListItems ul {
+    text-shadow: 2px 2px black;
+    margin-bottom: 3vh;
+}
+
+.ingListItems ul {
+
+    font-size: 25px;
+    margin-right: 1vw;
+    text-shadow: 2px 2px black;
+}
+
+.yoursubmit {
+    background-color: rgba(255, 255, 255, 0.796);
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 4px;
+    font-size: 30px;
+    float: right;
+    height: 8vh;
+    width: 20%;
+}
+
+.deleteRecipe {
+    margin-left: 2vw;
+}

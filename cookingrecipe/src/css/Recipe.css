@@ -1,0 +1,82 @@
+.displayRecipe {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+
+}
+
+.recipeHeading {
+    margin-top: -2vh;
+    font-size: 50px;
+    color: yellow;
+    text-shadow: 4px 4px black;
+}
+
+.recipeImage {
+    align-self: center;
+}
+
+.recipeDesc {
+    margin-top: 5vh;
+    display: flex;
+    height: 350px;
+}
+
+.recipeDesc h4 {
+    font-size: 30px;
+    text-shadow: 3px 3px black;
+    margin-right: 2vw;
+}
+
+.recipeDesc img {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+.recipeIngHead {
+
+    font-size: 45px;
+    text-shadow: 3px 3px black;
+}
+
+.recipestepHead {
+
+    font-size: 45px;
+    text-shadow: 3px 3px black;
+    margin-bottom: 3vh;
+}
+
+.recipeIngItems {
+    margin-top: 3vh;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    color: #000;
+
+}
+
+
+.recipeIngItems ul {
+    font-size: 25px;
+    margin-bottom: 1vh;
+
+}
+
+.recipestepItems ul {
+    font-size: 30px;
+    margin-bottom: 4vh;
+
+}
+
+.recipestepItems {
+    color: #000;
+    margin-top: 3vh;
+}
+
+hr {
+    height: 3px;
+    background-color: black;
+}

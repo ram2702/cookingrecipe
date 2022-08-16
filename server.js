@@ -10,12 +10,10 @@ app.use(require("./routes/record"));
 // get driver connection
 const dbo = require("./db/conn");
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "../cookingrecipe/build")));
+  app.use(express.static(path.join(__dirname, "/cookingrecipe/build")));
 
   app.get("*", (req, res) => {
-    res.sendFile(
-      path.join(__dirname, "../cookingrecipe", "build", "index.html")
-    );
+    res.sendFile(path.join(__dirname, "/cookingrecipe", "build", "index.html"));
   });
 } else {
   app.get("/", (req, res) => {
